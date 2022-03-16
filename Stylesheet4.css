@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+  }
+
+    a {
+    text-decoration: none;
+  }
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-wrapper {
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-image: url(https://ak.picdn.net/shutterstock/videos/1030617476/thumb/1.jpg);
+    background-size: cover;
+    color: rgb(22, 20, 37);
+    text-align: center;
+}
+
+.top-wrapper h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;  
+    opacity: 0.9;
+    letter-spacing: 5px;
+    margin-bottom: 3px;
+}
+
+.container h3{
+    color:rgb(26, 25, 31)
+    
+}
+
+.signup {
+    padding: 5px 10px;
+    background-color: #16ce9a;
+    cursor: pointer;
+    box-shadow:0px 7px #4ee48a;
+}
+
+.signup:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(16, 75, 87, 0.7);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    width: 124px;
+    height: 80px;
+}
+
+.header-left{
+    float:left;
+}
+
+.header-right{
+    float:right;
+    
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(8, 8, 8);
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
